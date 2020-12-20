@@ -1,0 +1,17 @@
+{
+    "name": "net",
+    "references": [
+        "GUID:2eb77865aafd84e418e31d8edd7f6f56",
+        "GUID:a54b96d5ddd2c488aadb7e2cb0921b9b",
+        "GUID:9066b647aaa444e5985cab66092917fd"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

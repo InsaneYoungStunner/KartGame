@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cfb18c66-c5fd-49f1-9041-0bed45c201fa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Karting/Scripts/KartSystems/KartAnimation/KartAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Karting/Scripts/KartSystems/KartAnimation/KartAnimation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Karting/Scripts/UI/MetaGameController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Karting/Scripts/UI/MetaGameController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Client.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Client.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RoomButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RoomButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RoomInPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RoomInPanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RoomsPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RoomsPanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/CloudBase.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Editor/MgobeMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Editor/MgobeMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Editor/TcbClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Editor/TcbClient.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/Global.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/Global.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/Unity.Mgobe.Runtime.asmdef" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/Unity.Mgobe.Runtime.asmdef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/pb/Proto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/pb/Proto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/pb/proto.proto" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/pb/proto.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Broadcast/BroadcastOnce.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Broadcast/BroadcastOnce.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Broadcast/FrameBroadcast.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Broadcast/FrameBroadcast.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Broadcast/RoomBroadcast.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Broadcast/RoomBroadcast.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Const.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Const.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Core.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Core.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/EventUploader/Adapter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/EventUploader/Adapter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/EventUploader/Beacon_unity_conf.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/EventUploader/Beacon_unity_conf.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/EventUploader/Beacon_untiy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/EventUploader/Beacon_untiy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/EventUploader/EventUpload.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/EventUploader/EventUpload.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/EventUploader/Events.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/EventUploader/Events.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/EventUploader/FrameBst.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/EventUploader/FrameBst.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/EventUploader/Stat.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/EventUploader/Stat.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/GameInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/GameInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Listener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Listener.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Matcher/Matcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Matcher/Matcher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Net/BaseNetUtil.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Net/BaseNetUtil.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Net/KCPSocket.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Net/KCPSocket.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Net/Kcp/KCP.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Net/Kcp/KCP.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Net/Net.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Net/Net.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Net/NetClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Net/NetClient.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Net/NetServer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Net/NetServer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Net/Socket.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Net/Socket.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Ping/Pinger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Ping/Pinger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Room/Room.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Room/Room.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Room/RoomUtil.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Room/RoomUtil.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/SDK.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/SDK.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/SDK/Room.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/SDK/Room.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/SDK/RoomBroadcastHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/SDK/RoomBroadcastHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/SDKType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/SDKType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Sender/FrameSender.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Sender/FrameSender.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Sender/Sender.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Sender/Sender.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/User/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/User/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/User/UserUtil.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/User/UserUtil.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Util/Debugger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Util/Debugger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Util/Def/Config.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Util/Def/Config.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Util/Def/EnumType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Util/Def/EnumType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Util/Def/ErrCode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Util/Def/ErrCode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Util/PB.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Util/PB.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Util/RandomUtil.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Util/RandomUtil.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Util/Response.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Util/Response.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Util/Status.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Util/Status.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Util/Timer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Util/Timer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Util/Util.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Util/Util.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/com.unity.mgobe/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/com.unity.mgobe/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CreateRoomPanel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Net/NetServer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Net/Socket.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Net/KCPSocket.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Net/BaseNetUtil.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Net/NetClient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Util/Def/EnumType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Util/Def/ErrCode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Util/Def/Config.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/SDK/RoomBroadcastHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/SDK/Room.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Ping/Pinger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/Global.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file:///Applications/Unity/Hub/Editor/2019.3.0b3/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/UIBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Room/RoomUtil.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/User/User.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Room/Room.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/User/UserUtil.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FBB5ED17-EB6E-46C6-8000-0F8910EBB50C/ad/a2c1ff1a/HashSet`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/pb/Proto.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Util/Response.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Util/Timer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Util/PB.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Util/RandomUtil.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Util/Status.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Core.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Util/Debugger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/GameInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Sender/FrameSender.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/SDK.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Sender/Sender.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Matcher/Matcher.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/SDKType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Broadcast/RoomBroadcast.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Listener.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Broadcast/FrameBroadcast.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Const.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Broadcast/BroadcastOnce.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Client.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Karting/Scripts/UI/MetaGameController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Net/Net.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/EventUploader/EventUpload.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Net/KCPSocket.cs" />
+        <option value="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/SDK/RoomBroadcastHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Net/BaseNetUtil.cs" />
+        <option value="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Sender/Sender.cs" />
+        <option value="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Net/NetClient.cs" />
+        <option value="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Net/Socket.cs" />
+        <option value="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Util/Def/ErrCode.cs" />
+        <option value="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Util/Debugger.cs" />
+        <option value="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Util/PB.cs" />
+        <option value="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Util/Timer.cs" />
+        <option value="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/GameInfo.cs" />
+        <option value="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Broadcast/BroadcastOnce.cs" />
+        <option value="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Matcher/Matcher.cs" />
+        <option value="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Net/Net.cs" />
+        <option value="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Util/Status.cs" />
+        <option value="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Ping/Pinger.cs" />
+        <option value="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/SDK/Room.cs" />
+        <option value="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Sender/FrameSender.cs" />
+        <option value="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/User/User.cs" />
+        <option value="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/User/UserUtil.cs" />
+        <option value="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Util/Def/Config.cs" />
+        <option value="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Util/Def/EnumType.cs" />
+        <option value="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Core.cs" />
+        <option value="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Listener.cs" />
+        <option value="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/SDK.cs" />
+        <option value="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/Global.cs" />
+        <option value="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/SDKType.cs" />
+        <option value="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Broadcast/RoomBroadcast.cs" />
+        <option value="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/EventUploader/EventUpload.cs" />
+        <option value="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Broadcast/FrameBroadcast.cs" />
+        <option value="$PROJECT_DIR$/Assets/Karting/Scripts/UI/MetaGameController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Client.cs" />
+        <option value="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Room/RoomUtil.cs" />
+        <option value="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Room/RoomUtil.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1c43emIu5hB1lZr5gjlpt69pOin" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cfb18c66-c5fd-49f1-9041-0bed45c201fa" name="Default Changelist" comment="" />
+      <created>1589774136807</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589774136807</updated>
+      <workItem from="1589774140627" duration="17578000" />
+      <workItem from="1589870219545" duration="434000" />
+      <workItem from="1590135833310" duration="13000" />
+      <workItem from="1592376737379" duration="56000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="WindowStateProjectService">
+    <state x="-1587" y="207" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592376772924">
+      <screen x="-2560" y="-323" width="2560" height="1440" />
+    </state>
+    <state x="-1587" y="207" key="#com.intellij.fileTypes.FileTypeChooser/-2560.-323.2560.1440/0.0.1680.1050@-2560.-323.2560.1440" timestamp="1592376772924" />
+    <state width="2518" height="411" key="GridCell.Tab.0.bottom" timestamp="1589870212295">
+      <screen x="-2560" y="-300" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="411" key="GridCell.Tab.0.bottom/-2560.-300.2560.1417/0.23.1680.1027@-2560.-300.2560.1417" timestamp="1589870212295" />
+    <state width="2518" height="411" key="GridCell.Tab.0.bottom/-2560.-323.2560.1440/0.0.1680.1050@-2560.-323.2560.1440" timestamp="1589860779838" />
+    <state width="2518" height="501" key="GridCell.Tab.0.bottom/-2560.-323.2560.1440/0.23.1680.1027@-2560.-323.2560.1440" timestamp="1589860433377" />
+    <state width="2518" height="411" key="GridCell.Tab.0.center" timestamp="1589870212295">
+      <screen x="-2560" y="-300" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="411" key="GridCell.Tab.0.center/-2560.-300.2560.1417/0.23.1680.1027@-2560.-300.2560.1417" timestamp="1589870212295" />
+    <state width="2518" height="411" key="GridCell.Tab.0.center/-2560.-323.2560.1440/0.0.1680.1050@-2560.-323.2560.1440" timestamp="1589860779836" />
+    <state width="2518" height="501" key="GridCell.Tab.0.center/-2560.-323.2560.1440/0.23.1680.1027@-2560.-323.2560.1440" timestamp="1589860433376" />
+    <state width="2518" height="411" key="GridCell.Tab.0.left" timestamp="1589870212295">
+      <screen x="-2560" y="-300" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="411" key="GridCell.Tab.0.left/-2560.-300.2560.1417/0.23.1680.1027@-2560.-300.2560.1417" timestamp="1589870212295" />
+    <state width="2518" height="411" key="GridCell.Tab.0.left/-2560.-323.2560.1440/0.0.1680.1050@-2560.-323.2560.1440" timestamp="1589860779835" />
+    <state width="2518" height="501" key="GridCell.Tab.0.left/-2560.-323.2560.1440/0.23.1680.1027@-2560.-323.2560.1440" timestamp="1589860433375" />
+    <state width="2518" height="411" key="GridCell.Tab.0.right" timestamp="1589870212295">
+      <screen x="-2560" y="-300" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="411" key="GridCell.Tab.0.right/-2560.-300.2560.1417/0.23.1680.1027@-2560.-300.2560.1417" timestamp="1589870212295" />
+    <state width="2518" height="411" key="GridCell.Tab.0.right/-2560.-323.2560.1440/0.0.1680.1050@-2560.-323.2560.1440" timestamp="1589860779837" />
+    <state width="2518" height="501" key="GridCell.Tab.0.right/-2560.-323.2560.1440/0.23.1680.1027@-2560.-323.2560.1440" timestamp="1589860433376" />
+    <state width="2518" height="411" key="GridCell.Tab.1.bottom" timestamp="1589870212296">
+      <screen x="-2560" y="-300" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="411" key="GridCell.Tab.1.bottom/-2560.-300.2560.1417/0.23.1680.1027@-2560.-300.2560.1417" timestamp="1589870212296" />
+    <state width="2518" height="411" key="GridCell.Tab.1.bottom/-2560.-323.2560.1440/0.0.1680.1050@-2560.-323.2560.1440" timestamp="1589860779841" />
+    <state width="2518" height="411" key="GridCell.Tab.1.bottom/-2560.-323.2560.1440/0.23.1680.1027@-2560.-323.2560.1440" timestamp="1589860731596" />
+    <state width="2518" height="411" key="GridCell.Tab.1.center" timestamp="1589870212296">
+      <screen x="-2560" y="-300" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="411" key="GridCell.Tab.1.center/-2560.-300.2560.1417/0.23.1680.1027@-2560.-300.2560.1417" timestamp="1589870212296" />
+    <state width="2518" height="411" key="GridCell.Tab.1.center/-2560.-323.2560.1440/0.0.1680.1050@-2560.-323.2560.1440" timestamp="1589860779839" />
+    <state width="2518" height="411" key="GridCell.Tab.1.center/-2560.-323.2560.1440/0.23.1680.1027@-2560.-323.2560.1440" timestamp="1589860731595" />
+    <state width="2518" height="411" key="GridCell.Tab.1.left" timestamp="1589870212296">
+      <screen x="-2560" y="-300" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="411" key="GridCell.Tab.1.left/-2560.-300.2560.1417/0.23.1680.1027@-2560.-300.2560.1417" timestamp="1589870212296" />
+    <state width="2518" height="411" key="GridCell.Tab.1.left/-2560.-323.2560.1440/0.0.1680.1050@-2560.-323.2560.1440" timestamp="1589860779838" />
+    <state width="2518" height="411" key="GridCell.Tab.1.left/-2560.-323.2560.1440/0.23.1680.1027@-2560.-323.2560.1440" timestamp="1589860731594" />
+    <state width="2518" height="411" key="GridCell.Tab.1.right" timestamp="1589870212296">
+      <screen x="-2560" y="-300" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="411" key="GridCell.Tab.1.right/-2560.-300.2560.1417/0.23.1680.1027@-2560.-300.2560.1417" timestamp="1589870212296" />
+    <state width="2518" height="411" key="GridCell.Tab.1.right/-2560.-323.2560.1440/0.0.1680.1050@-2560.-323.2560.1440" timestamp="1589860779840" />
+    <state width="2518" height="411" key="GridCell.Tab.1.right/-2560.-323.2560.1440/0.23.1680.1027@-2560.-323.2560.1440" timestamp="1589860731595" />
+    <state width="2518" height="411" key="GridCell.Tab.2.bottom" timestamp="1589870212297">
+      <screen x="-2560" y="-300" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="411" key="GridCell.Tab.2.bottom/-2560.-300.2560.1417/0.23.1680.1027@-2560.-300.2560.1417" timestamp="1589870212297" />
+    <state width="2518" height="411" key="GridCell.Tab.2.bottom/-2560.-323.2560.1440/0.0.1680.1050@-2560.-323.2560.1440" timestamp="1589860779843" />
+    <state width="2518" height="501" key="GridCell.Tab.2.bottom/-2560.-323.2560.1440/0.23.1680.1027@-2560.-323.2560.1440" timestamp="1589860433381" />
+    <state width="2518" height="411" key="GridCell.Tab.2.center" timestamp="1589870212297">
+      <screen x="-2560" y="-300" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="411" key="GridCell.Tab.2.center/-2560.-300.2560.1417/0.23.1680.1027@-2560.-300.2560.1417" timestamp="1589870212297" />
+    <state width="2518" height="411" key="GridCell.Tab.2.center/-2560.-323.2560.1440/0.0.1680.1050@-2560.-323.2560.1440" timestamp="1589860779842" />
+    <state width="2518" height="501" key="GridCell.Tab.2.center/-2560.-323.2560.1440/0.23.1680.1027@-2560.-323.2560.1440" timestamp="1589860433380" />
+    <state width="2518" height="411" key="GridCell.Tab.2.left" timestamp="1589870212297">
+      <screen x="-2560" y="-300" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="411" key="GridCell.Tab.2.left/-2560.-300.2560.1417/0.23.1680.1027@-2560.-300.2560.1417" timestamp="1589870212297" />
+    <state width="2518" height="411" key="GridCell.Tab.2.left/-2560.-323.2560.1440/0.0.1680.1050@-2560.-323.2560.1440" timestamp="1589860779841" />
+    <state width="2518" height="501" key="GridCell.Tab.2.left/-2560.-323.2560.1440/0.23.1680.1027@-2560.-323.2560.1440" timestamp="1589860433380" />
+    <state width="2518" height="411" key="GridCell.Tab.2.right" timestamp="1589870212297">
+      <screen x="-2560" y="-300" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="411" key="GridCell.Tab.2.right/-2560.-300.2560.1417/0.23.1680.1027@-2560.-300.2560.1417" timestamp="1589870212297" />
+    <state width="2518" height="411" key="GridCell.Tab.2.right/-2560.-323.2560.1440/0.0.1680.1050@-2560.-323.2560.1440" timestamp="1589860779843" />
+    <state width="2518" height="501" key="GridCell.Tab.2.right/-2560.-323.2560.1440/0.23.1680.1027@-2560.-323.2560.1440" timestamp="1589860433381" />
+    <state width="2518" height="411" key="GridCell.Tab.3.bottom" timestamp="1589870212298">
+      <screen x="-2560" y="-300" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="411" key="GridCell.Tab.3.bottom/-2560.-300.2560.1417/0.23.1680.1027@-2560.-300.2560.1417" timestamp="1589870212298" />
+    <state width="2518" height="411" key="GridCell.Tab.3.bottom/-2560.-323.2560.1440/0.0.1680.1050@-2560.-323.2560.1440" timestamp="1589860779845" />
+    <state width="2518" height="501" key="GridCell.Tab.3.bottom/-2560.-323.2560.1440/0.23.1680.1027@-2560.-323.2560.1440" timestamp="1589860433384" />
+    <state width="2518" height="411" key="GridCell.Tab.3.center" timestamp="1589870212298">
+      <screen x="-2560" y="-300" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="411" key="GridCell.Tab.3.center/-2560.-300.2560.1417/0.23.1680.1027@-2560.-300.2560.1417" timestamp="1589870212298" />
+    <state width="2518" height="411" key="GridCell.Tab.3.center/-2560.-323.2560.1440/0.0.1680.1050@-2560.-323.2560.1440" timestamp="1589860779844" />
+    <state width="2518" height="501" key="GridCell.Tab.3.center/-2560.-323.2560.1440/0.23.1680.1027@-2560.-323.2560.1440" timestamp="1589860433383" />
+    <state width="2518" height="411" key="GridCell.Tab.3.left" timestamp="1589870212298">
+      <screen x="-2560" y="-300" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="411" key="GridCell.Tab.3.left/-2560.-300.2560.1417/0.23.1680.1027@-2560.-300.2560.1417" timestamp="1589870212298" />
+    <state width="2518" height="411" key="GridCell.Tab.3.left/-2560.-323.2560.1440/0.0.1680.1050@-2560.-323.2560.1440" timestamp="1589860779844" />
+    <state width="2518" height="501" key="GridCell.Tab.3.left/-2560.-323.2560.1440/0.23.1680.1027@-2560.-323.2560.1440" timestamp="1589860433382" />
+    <state width="2518" height="411" key="GridCell.Tab.3.right" timestamp="1589870212298">
+      <screen x="-2560" y="-300" width="2560" height="1417" />
+    </state>
+    <state width="2518" height="411" key="GridCell.Tab.3.right/-2560.-300.2560.1417/0.23.1680.1027@-2560.-300.2560.1417" timestamp="1589870212298" />
+    <state width="2518" height="411" key="GridCell.Tab.3.right/-2560.-323.2560.1440/0.0.1680.1050@-2560.-323.2560.1440" timestamp="1589860779845" />
+    <state width="2518" height="501" key="GridCell.Tab.3.right/-2560.-323.2560.1440/0.23.1680.1027@-2560.-323.2560.1440" timestamp="1589860433383" />
+    <state x="-1617" y="47" key="SettingsEditor" timestamp="1589860319303">
+      <screen x="-2560" y="-300" width="2560" height="1417" />
+    </state>
+    <state x="-1617" y="47" key="SettingsEditor/-2560.-300.2560.1417/0.23.1680.1027@-2560.-300.2560.1417" timestamp="1589860319303" />
+    <state x="-1595" y="-4" width="836" height="825" key="find.popup" timestamp="1589793822554">
+      <screen x="-2560" y="-300" width="2560" height="1417" />
+    </state>
+    <state x="-1595" y="-4" width="836" height="825" key="find.popup/-2560.-300.2560.1417/0.23.1680.1027@-2560.-300.2560.1417" timestamp="1589793822554" />
+    <state x="-1463" y="23" width="672" height="678" key="search.everywhere.popup" timestamp="1589870170131">
+      <screen x="-2560" y="-300" width="2560" height="1417" />
+    </state>
+    <state x="-1463" y="23" width="672" height="678" key="search.everywhere.popup/-2560.-300.2560.1417/0.23.1680.1027@-2560.-300.2560.1417" timestamp="1589870170131" />
+    <state x="-1463" y="5" width="672" height="690" key="search.everywhere.popup/-2560.-323.2560.1440/0.0.1680.1050@-2560.-323.2560.1440" timestamp="1589860710970" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Matcher/Matcher.cs</url>
+          <line>76</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/com.unity.mgobe/Runtime/src/Matcher/Matcher.cs" initialLine="76">
+            <startOffsets>
+              <option value="3658" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3688" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_kartGame.-371063284.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor-firstpass-testable.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="com.unity.learn.iet-framework@0.2.1-preview.1" t="Include">
+          <e p="Framework" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+            <e p="Interactive Tutorials" t="Include">
+              <e p="Editor" t="Include">
+                <e p="AnalyticsHelper.cs" t="Include" />
+                <e p="CollectionWrapper.cs" t="Include" />
+                <e p="Criteria" t="Include">
+                  <e p="ActiveToolCriterion.cs" t="Include" />
+                  <e p="BuildStartedCriterion.cs" t="Include" />
+                  <e p="ComponentAddedCriterion.cs" t="Include" />
+                  <e p="Criterion.cs" t="Include" />
+                  <e p="EditorWindowCriterion.cs" t="Include" />
+                  <e p="FrameSelectedCriterion.cs" t="Include" />
+                  <e p="InstantiatePrefabCriterion.cs" t="Include" />
+                  <e p="MaterialPropertyModifiedCriterion.cs" t="Include" />
+                  <e p="PlayModeStateCriterion.cs" t="Include" />
+                  <e p="PrefabInstanceCountCriterion.cs" t="Include" />
+                  <e p="PropertyModificationCriterion.cs" t="Include" />
+                  <e p="RequiredSelectionCriterion.cs" t="Include" />
+                  <e p="SceneAddedToBuildCriterion.cs" t="Include" />
+                  <e p="SceneViewCameraMovedCriterion.cs" t="Include" />
+                  <e p="TriggerTaskCriterion.cs" t="Include" />
+                </e>
+                <e p="Editor Windows" t="Include">
+                  <e p="TutorialModalWindow.cs" t="Include" />
+                  <e p="TutorialParagraphView.cs" t="Include" />
+                  <e p="TutorialWindow.cs" t="Include" />
+                  <e p="VideoPlaybackManager.cs" t="Include" />
+                </e>
+                <e p="Editors" t="Include">
+                  <e p="ReadmeEditor.cs" t="Include" />
+                  <e p="TutorialEditor.cs" t="Include" />
+                  <e p="TutorialPageEditor.cs" t="Include" />
+                </e>
+                <e p="FutureObjectReference.cs" t="Include" />
+                <e p="GenesisHelper.cs" t="Include" />
+                <e p="Internal Proxy" t="Include">
+                  <e p="AssemblyInfo.cs.cs" t="Include" />
+                  <e p="AudioUtilProxy.cs" t="Include" />
+                  <e p="EditorWindowProxy.cs" t="Include" />
+                  <e p="GameObjectProxy.cs" t="Include" />
+                  <e p="GameViewProxy.cs" t="Include" />
+                  <e p="GUIViewDebuggerHelperProxy.cs" t="Include" />
+                  <e p="GUIViewProxy.cs" t="Include" />
+                  <e p="HandleUtilityProxy.cs" t="Include" />
+                  <e p="HomeWindowProxy.cs" t="Include" />
+                  <e p="HostViewProxy.cs" t="Include" />
+                  <e p="InspectorWindowProxy.cs" t="Include" />
+                  <e p="UIElementsHelper.cs" t="Include" />
+                  <e p="UnityConnectProxy.cs" t="Include" />
+                  <e p="UnityEditor.InteractiveTutorialsFramework.asmdef" t="Include" />
+                  <e p="UsabilityAnalyticsProxy.cs" t="Include" />
+                  <e p="WindowLayout.cs" t="Include" />
+                </e>
+                <e p="Masking" t="Include">
+                  <e p="GUIControlSelector.cs" t="Include" />
+                  <e p="MaskingManager.cs" t="Include" />
+                  <e p="MaskingSettings.cs" t="Include" />
+                  <e p="UnmaskedView.cs" t="Include" />
+                </e>
+                <e p="Models" t="Include">
+                  <e p="AutoCompletion.cs" t="Include" />
+                  <e p="InlineIcon.cs" t="Include" />
+                  <e p="SceneViewCameraSettings.cs" t="Include" />
+                  <e p="Tutorial.cs" t="Include" />
+                  <e p="TutorialPage.cs" t="Include" />
+                  <e p="TutorialParagraph.cs" t="Include" />
+                  <e p="TutorialProjectSettings.cs" t="Include" />
+                  <e p="TutorialStyles.cs" t="Include" />
+                  <e p="TutorialWelcomePage.cs" t="Include" />
+                  <e p="TypedCriterion.cs" t="Include" />
+                </e>
+                <e p="ObjectReference.cs" t="Include" />
+                <e p="ProjectMode.cs" t="Include" />
+                <e p="Property Attributes" t="Include">
+                  <e p="SerializedTypeFilterAttribute.cs" t="Include" />
+                </e>
+                <e p="Property Drawers" t="Include">
+                  <e p="CollectionWrapperDrawer.cs" t="Include" />
+                  <e p="ComponentAddedCriterionDrawers.cs" t="Include" />
+                  <e p="EditorWindowTypeDrawer.cs" t="Include" />
+                  <e p="FlushChildrenDrawer.cs" t="Include" />
+                  <e p="GUIControlSelectorDrawer.cs" t="Include" />
+                  <e p="InlineIconDrawer.cs" t="Include" />
+                  <e p="InstantiatePrefabCriterionDrawers.cs" t="Include" />
+                  <e p="MaskingSettingsDrawer.cs" t="Include" />
+                  <e p="ObjectReferencePropertyDrawer.cs" t="Include" />
+                  <e p="SceneObjectReferencePropertyDrawer.cs" t="Include" />
+                  <e p="SceneViewCameraSettingsDrawer.cs" t="Include" />
+                  <e p="SerializedTypeDrawer.cs" t="Include" />
+                  <e p="TutorialParagraphCollectionDrawer.cs" t="Include" />
+                  <e p="TutorialParagraphDrawer.cs" t="Include" />
+                  <e p="TypedCriterionCollectionDrawer.cs" t="Include" />
+                  <e p="TypedCriterionDrawer.cs" t="Include" />
+                  <e p="UnmaskedViewDrawer.cs" t="Include" />
+                </e>
+                <e p="SceneObjectReference.cs" t="Include" />
+                <e p="SerializedType.cs" t="Include" />
+                <e p="Shims" t="Include">
+                  <e p="PrefabUtilityShim.cs" t="Include" />
+                </e>
+                <e p="TutorialContainer.cs" t="Include" />
+                <e p="TutorialManager.cs" t="Include" />
+                <e p="TutorialWindowMenuItem.cs" t="Include" />
+                <e p="UserStartupCode.cs" t="Include" />
+              </e>
+              <e p="GUI" t="Include">
+                <e p="Roboto Font" t="Include">
+                  <e p="Apache License.txt" t="Include" />
+                </e>
+              </e>
+              <e p="Scripts" t="Include">
+                <e p="BaseCollisionBroadcaster.cs" t="Include" />
+                <e p="CollisionBroadcaster2D.cs" t="Include" />
+                <e p="CollisionBroadcaster3D.cs" t="Include" />
+                <e p="IPlayerAvatar.cs" t="Include" />
+                <e p="SceneObjectGUIDComponent.cs" t="Include" />
+                <e p="SceneObjectGUIDManager.cs" t="Include" />
+                <e p="SelectionRoot.cs" t="Include" />
+                <e p="Unity.InteractiveTutorials.Core.Scripts.asmdef" t="Include" />
+              </e>
+            </e>
+            <e p="Unity.InteractiveTutorials.Core.asmdef" t="Include" />
+          </e>
+          <e p="Tests" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+            <e p="Editor" t="Include">
+              <e p="ActiveToolCriterionTests.cs" t="Include" />
+              <e p="Assembly-CSharp-Editor-firstpass-testable.asmdef" t="Include" />
+              <e p="BuildPlayerTests.cs" t="Include" />
+              <e p="BuildStartedCriterionTests.cs" t="Include" />
+              <e p="ComponentAddedCriterionTests.cs" t="Include" />
+              <e p="CriterionTestBase.cs" t="Include" />
+              <e p="EditorWindowCriterionTests.cs" t="Include" />
+              <e p="FrameSelectedCriterionTests.cs" t="Include" />
+              <e p="InstantiatePrefabCriterionTests.cs" t="Include" />
+              <e p="ManagerTests.cs" t="Include" />
+              <e p="MaskingManagerTests.cs" t="Include" />
+              <e p="MaterialPropertyModifiedCriterionTests.cs" t="Include" />
+              <e p="PrefabInstanceCountCriterionTests.cs" t="Include" />
+              <e p="ProjectModeTests.cs" t="Include" />
+              <e p="PropertyModificationCriterionTests.cs" t="Include" />
+              <e p="RequiredSelectionCriterionTests.cs" t="Include" />
+              <e p="SceneAddedToBuildCriterionTests.cs" t="Include" />
+              <e p="SceneObjectReferenceTests.cs" t="Include" />
+              <e p="SceneViewCameraMovedCriterionTests.cs" t="Include" />
+              <e p="TestAsset.cs" t="Include" />
+              <e p="TestBase.cs" t="Include" />
+              <e p="TestWindow1.cs" t="Include" />
+              <e p="TestWindow2.cs" t="Include" />
+              <e p="TriggerTaskCriterionTests.cs" t="Include" />
+              <e p="TutorialManagerTests.cs" t="Include" />
+              <e p="TutorialPageTests.cs" t="Include" />
+              <e p="TutorialTests.cs" t="Include" />
+              <e p="TutorialWindowTests.cs" t="Include" />
+              <e p="UnmaskedViewTests.cs" t="Include" />
+              <e p="VideoPlaybackManagerTests.cs" t="Include" />
+              <e p="WaitForDelayCall.cs" t="Include" />
+            </e>
+            <e p="TestComponents.cs" t="Include" />
+            <e p="Unity.InteractiveTutorials.Core.Tests.asmdef" t="Include" />
+          </e>
+        </e>
+        <e p="com.unity.mgobe" t="Include">
+          <e p="Editor" t="Include">
+            <e p="MgobeMenu.cs" t="Include" />
+            <e p="TcbClient.cs" t="Include" />
+            <e p="Unity.Minigame.Editor.asmdef" t="Include" />
+          </e>
+          <e p="Runtime" t="Include">
+            <e p="Global.cs" t="Include" />
+            <e p="pb" t="Include">
+              <e p="Proto.cs" t="Include" />
+            </e>
+            <e p="src" t="Include">
+              <e p="Broadcast" t="Include">
+                <e p="BroadcastOnce.cs" t="Include" />
+                <e p="FrameBroadcast.cs" t="Include" />
+                <e p="RoomBroadcast.cs" t="Include" />
+              </e>
+              <e p="Const.cs" t="Include" />
+              <e p="Core.cs" t="Include" />
+              <e p="EventUploader" t="Include">
+                <e p="Adapter.cs" t="Include" />
+                <e p="Beacon_unity_conf.cs" t="Include" />
+                <e p="Beacon_untiy.cs" t="Include" />
+                <e p="Events.cs" t="Include" />
+                <e p="EventUpload.cs" t="Include" />
+                <e p="FrameBst.cs" t="Include" />
+                <e p="Stat.cs" t="Include" />
+              </e>
+              <e p="GameInfo.cs" t="Include" />
+              <e p="Listener.cs" t="Include" />
+              <e p="Matcher" t="Include">
+                <e p="Matcher.cs" t="Include" />
+              </e>
+              <e p="Net" t="Include">
+                <e p="BaseNetUtil.cs" t="Include" />
+                <e p="Kcp" t="Include">
+                  <e p="KCP.cs" t="Include" />
+                </e>
+                <e p="KCPSocket.cs" t="Include" />
+                <e p="Net.cs" t="Include" />
+                <e p="NetClient.cs" t="Include" />
+                <e p="NetServer.cs" t="Include" />
+                <e p="Socket.cs" t="Include" />
+              </e>
+              <e p="Ping" t="Include">
+                <e p="Pinger.cs" t="Include" />
+              </e>
+              <e p="Player.cs" t="Include" />
+              <e p="Room" t="Include">
+                <e p="Room.cs" t="Include" />
+                <e p="RoomUtil.cs" t="Include" />
+              </e>
+              <e p="SDK" t="Include">
+                <e p="Room.cs" t="Include" />
+                <e p="RoomBroadcastHandler.cs" t="Include" />
+              </e>
+              <e p="SDK.cs" t="Include" />
+              <e p="SDKType.cs" t="Include" />
+              <e p="Sender" t="Include">
+                <e p="FrameSender.cs" t="Include" />
+                <e p="Sender.cs" t="Include" />
+              </e>
+              <e p="User" t="Include">
+                <e p="User.cs" t="Include" />
+                <e p="UserUtil.cs" t="Include" />
+              </e>
+              <e p="Util" t="Include">
+                <e p="Debugger.cs" t="Include" />
+                <e p="Def" t="Include">
+                  <e p="Config.cs" t="Include" />
+                  <e p="EnumType.cs" t="Include" />
+                  <e p="ErrCode.cs" t="Include" />
+                </e>
+                <e p="PB.cs" t="Include" />
+                <e p="RandomUtil.cs" t="Include" />
+                <e p="Response.cs" t="Include" />
+                <e p="Status.cs" t="Include" />
+                <e p="Timer.cs" t="Include" />
+                <e p="Util.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Unity.Mgobe.Runtime.asmdef" t="Include" />
+          </e>
+        </e>
+        <e p="Joystick Pack" t="Include">
+          <e p="Examples" t="Include">
+            <e p="JoystickPlayerExample.cs" t="Include" />
+            <e p="JoystickSetterExample.cs" t="Include" />
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="Base" t="Include">
+              <e p="Joystick.cs" t="Include" />
+            </e>
+            <e p="Editor" t="Include">
+              <e p="DynamicJoystickEditor.cs" t="Include" />
+              <e p="FloatingJoystickEditor.cs" t="Include" />
+              <e p="JoystickEditor.cs" t="Include" />
+              <e p="VariableJoystickEditor.cs" t="Include" />
+            </e>
+            <e p="Joysticks" t="Include">
+              <e p="DynamicJoystick.cs" t="Include" />
+              <e p="FixedJoystick.cs" t="Include" />
+              <e p="FloatingJoystick.cs" t="Include" />
+              <e p="VariableJoystick.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Karting" t="Include">
+          <e p="Editor" t="Include">
+            <e p="AutoLockUILayer.cs" t="Include" />
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="KartSystems" t="Include">
+              <e p="Inputs" t="Include">
+                <e p="IInput.cs" t="Include" />
+                <e p="JoystickInput.cs" t="Include" />
+                <e p="KeyboardInput.cs" t="Include" />
+                <e p="NetworkInput.cs" t="Include" />
+              </e>
+              <e p="KartAnimation" t="Include">
+                <e p="KartAnimation.cs" t="Include" />
+              </e>
+              <e p="KartAudio" t="Include">
+                <e p="EngineAudio.cs" t="Include" />
+                <e p="EngineAudio.Stroke.cs" t="Include" />
+              </e>
+              <e p="KartColliders" t="Include">
+                <e p="IKartCollider.cs" t="Include" />
+                <e p="WallCollider.cs" t="Include" />
+              </e>
+              <e p="KartModifiers" t="Include">
+                <e p="AddativeKartModifier.cs" t="Include" />
+                <e p="AddativeKartModifierAsset.cs" t="Include" />
+                <e p="DefaultKartModifier.cs" t="Include" />
+                <e p="IKartModifier.cs" t="Include" />
+                <e p="MultiplicativeKartModifier.cs" t="Include" />
+                <e p="MultiplicativeKartModifierAsset.cs" t="Include" />
+              </e>
+              <e p="KartMovement" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="KartMovementEditor.cs" t="Include" />
+                </e>
+                <e p="GroundInfo.cs" t="Include" />
+                <e p="IControllable.cs" t="Include" />
+                <e p="IKartInfo.cs" t="Include" />
+                <e p="IMovable.cs" t="Include" />
+                <e p="KartMovement.cs" t="Include" />
+                <e p="KartStats.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Timeline" t="Include">
+              <e p="DirectorTrigger.cs" t="Include" />
+            </e>
+            <e p="Track" t="Include">
+              <e p="Checkpoint.cs" t="Include" />
+              <e p="InstantKartRepositioner.cs" t="Include" />
+              <e p="IRacer.cs" t="Include" />
+              <e p="KartRepositioner.cs" t="Include" />
+              <e p="KartRepositionTrigger.cs" t="Include" />
+              <e p="Racer.cs" t="Include" />
+              <e p="TimeDisplay.cs" t="Include" />
+              <e p="TrackManager.cs" t="Include" />
+              <e p="TrackRecord.cs" t="Include" />
+            </e>
+            <e p="UI" t="Include">
+              <e p="MainUIController.cs" t="Include" />
+              <e p="MetaGameController.cs" t="Include" />
+            </e>
+            <e p="Utilities" t="Include">
+              <e p="DictionaryExtensions.cs" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="RequireInterfaceAttributeDrawer.cs" t="Include" />
+              </e>
+              <e p="LayerMaskExtensions.cs" t="Include" />
+              <e p="ListExtensions.cs" t="Include" />
+              <e p="QuaternionExtensions.cs" t="Include" />
+              <e p="RequireInterfaceAttribute.cs" t="Include" />
+            </e>
+          </e>
+          <e p="TextMesh Pro" t="Include">
+            <e p="Resources" t="Include">
+              <e p="LineBreaking Following Characters.txt" t="Include" />
+              <e p="LineBreaking Leading Characters.txt" t="Include" />
+              <e p="Shaders" t="Include">
+                <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+                <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+                <e p="TMP_Bitmap.shader" t="Include" />
+                <e p="TMP_SDF Overlay.shader" t="Include" />
+                <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+                <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+                <e p="TMP_SDF-Mobile.shader" t="Include" />
+                <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+                <e p="TMP_SDF-Surface.shader" t="Include" />
+                <e p="TMP_SDF.shader" t="Include" />
+                <e p="TMP_Sprite.shader" t="Include" />
+                <e p="TMPro.cginc" t="Include" />
+                <e p="TMPro_Properties.cginc" t="Include" />
+                <e p="TMPro_Surface.cginc" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Mod Assets" t="Include">
+          <e p="ModResources" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="Backend" t="Include">
+                <e p="TemplateEditorDetection.cs" t="Include" />
+              </e>
+              <e p="BallGame" t="Include">
+                <e p="EmitParticlesOnBallBounce.cs" t="Include" />
+              </e>
+              <e p="Kart" t="Include">
+                <e p="EmitParticlesOnKartBounce.cs" t="Include" />
+                <e p="Jiggler.cs" t="Include" />
+                <e p="KartSpeedPad.cs" t="Include" />
+                <e p="SimpleTrigger.cs" t="Include" />
+              </e>
+              <e p="Platformer" t="Include">
+                <e p="EmitParticlesOnLand.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Client.cs" t="Include" />
+          <e p="CreateRoomPanel.cs" t="Include" />
+          <e p="GamePanel.cs" t="Include" />
+          <e p="LoginPanel.cs" t="Include" />
+          <e p="RoomButton.cs" t="Include" />
+          <e p="RoomInPanel.cs" t="Include" />
+          <e p="RoomsPanel.cs" t="Include" />
+          <e p="WaitForMatchRoomPanel.cs" t="Include" />
+        </e>
+      </e>
+      <e p="com.unity.mgobe.csproj" t="IncludeRecursive" />
+      <e p="com.unity.mgobe.editor.csproj" t="IncludeRecursive" />
+      <e p="kartGame.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp/bin" t="ExcludeRecursive" />
+      <e p="Unity.InteractiveTutorials.Core.csproj" t="IncludeRecursive" />
+      <e p="Unity.InteractiveTutorials.Core.Scripts.csproj" t="IncludeRecursive" />
+      <e p="Unity.InteractiveTutorials.Core.Tests.csproj" t="IncludeRecursive" />
+      <e p="UnityEditor.InteractiveTutorialsFramework.csproj" t="IncludeRecursive" />
+    </e>
+  </component>
+</project>
