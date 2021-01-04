@@ -25,13 +25,17 @@ namespace KartGame.UI {
             rot = new Quaternion ();
         }
 
+        
+
         public void OnFrame (string str) {
             string[] vals = str.Split (',');
-            if (vals.Length == 9) {
+            if (vals.Length == 11) {
                 int intAcc;
                 int intSteer;
+                int score;
                 float px, py, pz;
                 float rx, ry, rz, rw;
+                bool complicated;
                 if (Int32.TryParse (vals[0], out intAcc) &&
                     Int32.TryParse (vals[1], out intSteer) &&
                     float.TryParse (vals[2], out px) &&
@@ -40,7 +44,9 @@ namespace KartGame.UI {
                     float.TryParse (vals[5], out rx) &&
                     float.TryParse (vals[6], out ry) &&
                     float.TryParse (vals[7], out rz) &&
-                    float.TryParse (vals[8], out rw)) {
+                    float.TryParse (vals[8], out rw) &&
+                    bool.TryParse(vals[9], out complicated) &&
+                    Int32.TryParse(vals[10], out score)) {
                     input.m_Acceleration = intAcc;
                     input.m_Steering = intSteer;
                     pos.x = px;
@@ -52,6 +58,14 @@ namespace KartGame.UI {
                     rot.w = rw;
                     rot.Normalize ();
 
+                    if (ScoreManager.bestScore < score)
+                    {
+                        ScoreManager.bestScore = score;
+                    }
+                    if (!GameFlowManager.complicated)
+                    {
+                        GameFlowManager.complicated = complicated;
+                    }
                     movement.syncPosition = pos;
                     movement.syncRotation = rot;
                 }

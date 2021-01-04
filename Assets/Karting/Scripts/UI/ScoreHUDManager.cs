@@ -30,7 +30,7 @@ public class ScoreHUDManager : MonoBehaviour
         currentScoreText.gameObject.SetActive(true);
         bestScoreText.gameObject.SetActive(true);
         int currentScore = m_ScoreManager.currentScore;
-        int bestScore = m_ScoreManager.bestScore;
+        int bestScore = ScoreManager.bestScore;
         
         currentScoreText.text = string.Format("{0}", currentScore);
         bestScoreText.text = string.Format("{0}", bestScore);

@@ -47,7 +47,7 @@
   <PropertyGroup>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
-    <UnityProjectGeneratorVersion>2.8.3.0</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorVersion>2.8.4.0</UnityProjectGeneratorVersion>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>Android:13</UnityBuildTarget>
     <UnityVersion>2019.4.9f1</UnityVersion>
@@ -73,6 +73,7 @@
     <Compile Include="Assets\Mod Assets\ModResources\Scripts\Kart\KartSpeedPad.cs" />
     <Compile Include="Assets\Mod Assets\ModResources\Scripts\Kart\SimpleTrigger.cs" />
     <Compile Include="Assets\Mod Assets\ModResources\Scripts\Platformer\EmitParticlesOnLand.cs" />
+    <Compile Include="Assets\Scenes\FeedbackFlashHUD.cs" />
     <None Include="Assets\MegaPack1Lite\RomanCityPack1Lite\README.txt" />
     <None Include="Assets\Karting\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Karting\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
@@ -278,31 +279,31 @@
       <HintPath>/Applications/Unity/2019.4.9f1/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="CloudBase">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/PackageCache/com.unity.cloudbase@1.0.4-preview/Runtime/CloudBase.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/PackageCache/com.unity.cloudbase@1.0.4-preview/Runtime/CloudBase.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/PackageCache/com.unity.cloudbase@1.0.4-preview/Runtime/Newtonsoft.Json.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/PackageCache/com.unity.cloudbase@1.0.4-preview/Runtime/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.Compression.FileSystem">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/PackageCache/com.unity.connect.share@4.0.3/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/PackageCache/com.unity.connect.share@4.0.3/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
     </Reference>
     <Reference Include="websocket-sharp">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/PackageCache/com.unity.mgobe@1.0.6-preview/Runtime/websocket-sharp.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/PackageCache/com.unity.mgobe@1.0.6-preview/Runtime/websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="Google.Protobuf">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/PackageCache/com.unity.mgobe@1.0.6-preview/Runtime/Google.Protobuf.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/PackageCache/com.unity.mgobe@1.0.6-preview/Runtime/Google.Protobuf.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/2019.4.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -659,121 +660,121 @@
       <HintPath>/Applications/Unity/2019.4.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Cinemachine">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Monetization">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.multiplayer-hlapi.Editor">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProGrids">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Play.Publisher.Editor">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/ScriptAssemblies/Unity.Play.Publisher.Editor.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/ScriptAssemblies/Unity.Play.Publisher.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridgeDev.001">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/ScriptAssemblies/Unity.InternalAPIEditorBridgeDev.001.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/ScriptAssemblies/Unity.InternalAPIEditorBridgeDev.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.Editor">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.mgobe">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/ScriptAssemblies/com.unity.mgobe.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/ScriptAssemblies/com.unity.mgobe.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProGrids.Editor">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.cloudbase.editor">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/ScriptAssemblies/com.unity.cloudbase.editor.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/ScriptAssemblies/com.unity.cloudbase.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.mgobe.editor">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/ScriptAssemblies/com.unity.mgobe.editor.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/ScriptAssemblies/com.unity.mgobe.editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.multiplayer-weaver.Editor">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AddOns.Editor">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.multiplayer-hlapi.Runtime">
-      <HintPath>/Users/lixiaowen/Documents/IMDT-homework/engine/8 粒子特效/源码/KartGame/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
+      <HintPath>/Users/lixiaowen/Documents/KartGame/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

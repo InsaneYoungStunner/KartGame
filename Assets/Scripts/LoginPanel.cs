@@ -12,6 +12,6 @@ public class LoginPanel : MonoBehaviour
 
     private void Start()
     {
-        myOpenId.text = string.Format("Lz#{0}", UnityEngine.Random.Range(1, 1000));
+        myOpenId.text = string.Format("Player#{0}", UnityEngine.Random.Range(1, 1000));
     }
 }

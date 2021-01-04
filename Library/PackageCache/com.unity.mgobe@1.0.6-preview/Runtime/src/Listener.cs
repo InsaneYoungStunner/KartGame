@@ -25,6 +25,9 @@ namespace com.unity.mgobe
 		    Sdk.Instance.BindResponse(GlobalRoomBroadcast.Instance);
         }
 
+        
+
+
         public static bool IsMe(string playerId)
         {
             return playerId == RequestHeader.PlayerId;

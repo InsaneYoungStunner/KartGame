@@ -117,9 +117,7 @@ namespace KartGame.Track {
             else
             {
                 Sortedrecord.RemoveAt(0);
-                Debug.Log(JsonUtility.ToJson(Sortedrecord.Values));
                 Sortedrecord.Add(record.costTime, record);
-                Debug.Log(JsonUtility.ToJson(Sortedrecord.Values));
             }
             
         }
@@ -131,15 +129,14 @@ namespace KartGame.Track {
             {
                 bestrecords.records.Add(sr);
             }
-            Debug.Log(JsonUtility.ToJson(Sortedrecord.Values));
-            Debug.Log(JsonUtility.ToJson(bestrecords.records));
+           
             string folderPath = Path.Combine(Application.persistentDataPath, k_FolderName);
 
             if (!Directory.Exists(folderPath))
                 Directory.CreateDirectory(folderPath);
             
             string dataPath = Path.Combine(folderPath, k_FileName + k_FileExtension);
-            Debug.Log(dataPath);
+ 
             
             if (File.Exists(dataPath))
             {
@@ -183,7 +180,7 @@ namespace KartGame.Track {
                 Directory.CreateDirectory(folderPath);
 
             string dataPath = Path.Combine(folderPath, k_FileName + k_FileExtension);
-
+            Debug.Log(dataPath);
             if (!File.Exists(dataPath))
             {
                 return CreateDefault();
@@ -369,7 +366,6 @@ namespace KartGame.Track {
             bestrecords.records = new List<TrackRecord>();
             foreach (TrackRecord sr in Sortedrecord.Values)
             {
-                bestrecords.records = new List<TrackRecord>();
                 bestrecords.records.Add(sr);
             }
             string folderPath = Path.Combine(Application.persistentDataPath, k_FolderName);

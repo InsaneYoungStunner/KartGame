@@ -56,7 +56,7 @@ namespace KartGame.Track {
         public void BackMain()
         {
             GameObject.Find("Canvas").transform.Find("StartButton").gameObject.SetActive(true);
-            GameObject.Find("Canvas").transform.Find("ControlsButton").gameObject.SetActive(true);
+            GameObject.Find("Canvas").transform.Find("StartButton2").gameObject.SetActive(true);
             GameObject.Find("Canvas").transform.Find("Kart_Display").gameObject.SetActive(true);
 
             GameObject.Find("CancelButton").SetActive(false);
@@ -71,7 +71,7 @@ namespace KartGame.Track {
         public void ShowTimeRecord()
         {
             GameObject.Find("Canvas").transform.Find("StartButton").gameObject.SetActive(false);
-            GameObject.Find("Canvas").transform.Find("ControlsButton").gameObject.SetActive(false);
+            GameObject.Find("Canvas").transform.Find("StartButton2").gameObject.SetActive(false);
             GameObject.Find("Canvas").transform.Find("Kart_Display").gameObject.SetActive(false);
             GameObject.Find("Canvas").transform.Find("CancelButton").gameObject.SetActive(true);
             //GameObject.FindGameObjectWithTag("CancelButton").transform.gameObject.SetActive(true);
@@ -96,7 +96,7 @@ namespace KartGame.Track {
         public void ShowScoreRecord()
         {
             GameObject.Find("Canvas").transform.Find("StartButton").gameObject.SetActive(false);
-            GameObject.Find("Canvas").transform.Find("ControlsButton").gameObject.SetActive(false);
+            GameObject.Find("Canvas").transform.Find("StartButton2").gameObject.SetActive(false);
             GameObject.Find("Canvas").transform.Find("Kart_Display").gameObject.SetActive(false);
 
             GameObject.Find("Canvas").transform.Find("CancelButton").gameObject.SetActive(true);
@@ -116,14 +116,14 @@ namespace KartGame.Track {
                 showText.text += "coinCount:" + list[i].coinCount + "\n";
                 showText.text += "padCount:" + list[i].padCount + "\n" + "\n";
             }
-
+            Debug.Log(showText.text);
         }
 
 
         public void ShowCoinRecord()
         {
             GameObject.Find("Canvas").transform.Find("StartButton").gameObject.SetActive(false);
-            GameObject.Find("Canvas").transform.Find("ControlsButton").gameObject.SetActive(false);
+            GameObject.Find("Canvas").transform.Find("StartButton2").gameObject.SetActive(false);
             GameObject.Find("Canvas").transform.Find("Kart_Display").gameObject.SetActive(false);
 
             GameObject.Find("Canvas").transform.Find("CancelButton").gameObject.SetActive(true);
@@ -235,6 +235,7 @@ namespace KartGame.Track {
             BestScoreRecord.Save(bs);
 
             BestCoinRecord bc = BestCoinRecord.getBestCoinRecord();
+      
             BestCoinRecord.Add(tr);
             BestCoinRecord.Save(bc);
 
@@ -249,50 +250,6 @@ namespace KartGame.Track {
             m_IsRaceRunning = false;
          
         }
-        /*
-
-       
-
-        bool CanEndRace () {
-            foreach (KeyValuePair<IRacer, PickupObject> racerNextCheckpoint in m_RacerNextCheckpoints) {
-                if (racerNextCheckpoint.Key.GetCurrentLap () < raceLapTotal)
-                    return false;
-            }
-
-            return true;
-        }
-
-        void RacerHitIncorrectCheckpoint (IRacer racer, Checkpoint checkpoint) {
-            // No implementation required by template.
-        }
-
-        /// <summary>
-        /// This function should be called when a kart gets stuck or falls off the track.
-        /// It will find the last checkpoint the kart went through and reposition it there.
-        /// </summary>
-        /// <param name="movable">The movable representing the kart.</param>
-        public void ReplaceMovable (IMovable movable) {
-            IRacer racer = movable.GetRacer ();
-
-            if (racer == null)
-                return;
-
-            PickupObject nextCheckpoint = m_RacerNextCheckpoints[racer];
-            int lastCheckpointIndex = (checkpoints.IndexOf (nextCheckpoint) + checkpoints.Count - 1) % checkpoints.Count;
-            PickupObject lastCheckpoint = checkpoints[lastCheckpointIndex];
-
-            bool isControlled = movable.IsControlled ();
-            movable.DisableControl ();
-            kartRepositioner.OnRepositionComplete += ReenableControl;
-
-            kartRepositioner.Reposition (lastCheckpoint, movable, isControlled);
-        }
-
-        void ReenableControl (IMovable movable, bool doEnableControl) {
-            if (doEnableControl)
-                movable.EnableControl ();
-            kartRepositioner.OnRepositionComplete -= ReenableControl;
-        }
-        */
+      
     }
 }

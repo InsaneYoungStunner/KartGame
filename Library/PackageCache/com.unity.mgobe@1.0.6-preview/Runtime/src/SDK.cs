@@ -100,6 +100,13 @@ namespace com.unity.mgobe.src {
             Core.InitSdk ();
         }
 
+        public void UnInit(Action<ResponseEvent> callback)
+        {
+            // 初始化成功修改playerid
+            this._initRspCallback = callback;
+            Core.UnInitSdk();
+        }
+
         /**
          * sdk 初始化回调
          */

@@ -18,7 +18,13 @@ public class KartSpeedPad : MonoBehaviour
         if (rb == null) return;
         var kart = rb.GetComponent<KartMovement>();
         kart.StartCoroutine(KartModifier(kart, duration));
-        ScoreManager.OnAdjustScore(ScoreGained);
+
+        if (!kart.IsOtherKart)
+        {
+            ScoreManager.OnAdjustScore(ScoreGained);
+        }
+
+        
     }
 
     IEnumerator KartModifier(KartGame.KartSystems.KartMovement kart, float lifetime){

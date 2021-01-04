@@ -99,6 +99,7 @@ namespace com.unity.mgobe.src.Net {
             foreach (var val in SendQueue.Select (kv => kv.Value)) {
                 val.remove ();
             }
+           
             SendQueue.Clear ();
         }
 

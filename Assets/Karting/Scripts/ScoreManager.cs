@@ -6,7 +6,7 @@ using UnityEngine;
 public class ScoreManager : MonoBehaviour
 {
     public int currentScore { get; private set; }
-    public int bestScore { get; private set; }
+    static public int bestScore { get; set; }
     public static Action<int> OnAdjustScore;
     private bool raceStarted;
     // Start is called before the first frame update
@@ -40,6 +40,7 @@ public class ScoreManager : MonoBehaviour
     public void StartRace()
     {
         raceStarted = true;
+        bestScore = 0;
     }
 
     public void StopRace()

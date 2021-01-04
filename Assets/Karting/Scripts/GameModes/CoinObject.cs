@@ -70,7 +70,7 @@ public class CoinObject : MonoBehaviour
         TimeManager.OnAdjustTime(TimeGained);
         ScoreManager.OnAdjustScore(ScoreGained);
         CoinManager.OnAdjustCount(1);
-        Destroy(gameObject, collectDuration);
+        
     }
 
     void OnTriggerEnter(Collider other)
@@ -78,8 +78,15 @@ public class CoinObject : MonoBehaviour
         
         if ((layerMask.value & 1 << other.gameObject.layer) > 0 && other.gameObject.CompareTag("Player"))
         {
+            KartMovement km = other.GetComponent<KartMovement>();
 
-            OnCollect();
+            if (!km.IsOtherKart)
+            {
+                OnCollect();
+            }
+
+            Destroy(gameObject, collectDuration);
+
         }
     }
 }

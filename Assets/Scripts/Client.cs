@@ -12,6 +12,7 @@ using UnityEngine.UI;
 using KartGame.KartSystems;
 using KartGame.Timeline;
 using KartGame.Track;
+using com.unity.mgobe.src;
 
 public class Client : MonoBehaviour {
     const string MyRoomType = "Battle";
@@ -33,6 +34,8 @@ public class Client : MonoBehaviour {
     public CreateRoomPanel createRoomPanel;
     public WaitForMatchRoomPanel waitForMatchRoomPanel;
     public RoomInPanel roomInPanel;
+    public bool complicated;
+    public int score;
 
     // Net
     public Global global = null;
@@ -59,15 +62,26 @@ public class Client : MonoBehaviour {
     UInt64 lastSendFrameId = 0;
     public bool isReadyToBattle = false;
     public bool isInBattle = false;
-    public string SceneName = "NatureWorld";
+    public static string SceneName;
+    public static bool isInit=false;
+    public static Client cli = null;
+    public static Canvas ca = null;
 
     // Start is called before the first frame update
     void Start () {
+        DontDestroyOnLoad(this);
+        DontDestroyOnLoad(uiCanvas);
+        cli = this;
+        ca = uiCanvas;
+        //if (!isInit)
+        //{
+
+        //    DontDestroyOnLoad(this);
+        //    DontDestroyOnLoad(uiCanvas);
+
+        //    isInit = true;
+        //}
         Ins = this;
-
-        DontDestroyOnLoad (this);
-        DontDestroyOnLoad (uiCanvas);
-
         GenerateRandomUsername ();
         initSDK ();
 
@@ -75,8 +89,29 @@ public class Client : MonoBehaviour {
         StartCoroutine ("RefreshRoomOrPlayer");
     }
 
+    public void EndGame()
+    {
+        // 离开房间
+        Global.Room.LeaveRoom(eve => {
+            Global.Room.InitRoom((RoomInfo)null);
+            Debug.Log("EndGame");
+            isReadyToBattle = false;
+        });
+        Debug.Log("EndGame");
+
+        //roomInPanel.gameObject.SetActive(false);
+        //canRefreshPlayer = false;
+        //canRefreshRoom = true;
+        //roomsPanel.gameObject.SetActive(true);
+        //waitForMatchRoomPanel.isActive = true;
+        //roomInPanel.setReadyBtn.interactable = true;
+        //roomInPanel.setReadyBtn.gameObject.SetActive(true);
+        //roomInPanel.cancelReadyBtn.gameObject.SetActive(false);
+     
+    }
+
     private void OnDestroy () {
-        Global.UnInit ();
+        //Global.UnInit ();
     }
 
     // Update is called once per frame
@@ -130,6 +165,18 @@ public class Client : MonoBehaviour {
             ResendTimeout = 20000,
             IsAutoRequestFrame = true,
         };
+        if (isInit)
+        {
+            AddAction(() => Task.Run(() => CloudBaseClient.Init(Global.OpenId, Global.GameId)));
+            Global.Room = new Room(null);
+            Listener.Add(Global.Room);
+            canRefreshRoom = true;
+            RefreshRoomList();
+            loginPanel.loginBtn.interactable = true;
+            this.initBroadcast();
+            return;
+
+        }
 
         // 初始化监听器 Listener
         Listener.Init (gameInfo, config, (ResponseEvent eve) => {
@@ -141,10 +188,11 @@ public class Client : MonoBehaviour {
                 canRefreshRoom = true;
                 RefreshRoomList ();
                 loginPanel.loginBtn.interactable = true;
+
             }
             // 初始化广播回调事件
             this.initBroadcast ();
-
+            isInit = true;
         });
       
     }
@@ -183,9 +231,11 @@ public class Client : MonoBehaviour {
             RefreshRoomList ();
             Debugger.Log ("on cancel match! ");
         };
+        
     }
 
     IEnumerator LoadKartScene () {
+        Debugger.Log(SceneName);
         AsyncOperation asyncLoad = SceneManager.LoadSceneAsync (SceneName);
 
         // Wait until the asynchronous scene fully loads
@@ -215,7 +265,7 @@ public class Client : MonoBehaviour {
     }
 
     public void GenerateRandomUsername () {
-        loginPanel.myOpenId.text = string.Format ("Lz#{0}", UnityEngine.Random.Range (1, 1000));
+        loginPanel.myOpenId.text = string.Format ("Player#{0}", UnityEngine.Random.Range (1, 1000));
     }
 
     public void Login () {
@@ -357,9 +407,13 @@ public class Client : MonoBehaviour {
     public void LeaveRoom () {
         // 离开房间
         Global.Room.LeaveRoom (eve => {
+            Global.Room.InitRoom((RoomInfo)null);
+            Debug.Log("LeaveRoom");
             RefreshRoomList ();
             isReadyToBattle = false;
         });
+        Debug.Log("LeaveRoomEX");
+        
         roomInPanel.gameObject.SetActive (false);
         canRefreshPlayer = false;
         canRefreshRoom = true;
@@ -368,6 +422,7 @@ public class Client : MonoBehaviour {
         roomInPanel.setReadyBtn.interactable = true;
         roomInPanel.setReadyBtn.gameObject.SetActive (true);
         roomInPanel.cancelReadyBtn.gameObject.SetActive (false);
+        
     }
 
     public void MatchPlayer () {
@@ -534,7 +589,8 @@ public class Client : MonoBehaviour {
         }
         var acceleration = game.myKartInput?.Acceleration ?? 0;
         var steering = game.myKartInput?.Steering ?? 0;
-
+        complicated = GameFlowManager.complicated;
+        score = GameFlowManager.score;
         // if(fr.Id == 30) {  
         //     Global.Room.RequestFrame(new RequestFramePara {
         //         BeginFrameId = 20,
@@ -551,7 +607,7 @@ public class Client : MonoBehaviour {
 
         var para = new SendFramePara {
             Data =
-            $"{acceleration},{steering},{game.myKartInfo.Position.x:0.###},{game.myKartInfo.Position.y:0.###},{game.myKartInfo.Position.z:0.###},{game.myKartInfo.Rotation.x:0.####},{game.myKartInfo.Rotation.y:0.####},{game.myKartInfo.Rotation.z:0.####},{game.myKartInfo.Rotation.w:0.####}"
+            $"{acceleration},{steering},{game.myKartInfo.Position.x:0.###},{game.myKartInfo.Position.y:0.###},{game.myKartInfo.Position.z:0.###},{game.myKartInfo.Rotation.x:0.####},{game.myKartInfo.Rotation.y:0.####},{game.myKartInfo.Rotation.z:0.####},{game.myKartInfo.Rotation.w:0.####},{complicated},{score}"
         };
         // 发送帧
         Global.Room.SendFrame (para, eve => { });

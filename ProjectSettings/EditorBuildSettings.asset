@@ -16,11 +16,17 @@ EditorBuildSettings:
     guid: f8c7069e6d9b2124b861144ca83d31e8
   - enabled: 1
     path: Assets/Scenes/AncientWorld.unity
-    guid: 01724f0b8220b45e787e7fd9c36c1f44
+    guid: 7aa9add37c6f34d31b50f82ec19b43db
   - enabled: 1
     path: Assets/Scenes/LoseScene.unity
     guid: 1bcf8412d7ef34db1a51a55489845a5d
   - enabled: 1
     path: Assets/Scenes/WinScene.unity
     guid: 661b2d1a47fe441d4bc0de634b03de76
+  - enabled: 1
+    path: Assets/Scenes/World.unity
+    guid: 7b55cd8c29380453f8d73706b2bea971
+  - enabled: 1
+    path: Assets/Scenes/ComplicateScene.unity
+    guid: 6b7fd842e9c5543dd9b0ab4d0398e4e7
   m_configObjects: {}
