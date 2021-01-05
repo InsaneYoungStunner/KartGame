@@ -591,20 +591,7 @@ public class Client : MonoBehaviour {
         var steering = game.myKartInput?.Steering ?? 0;
         complicated = GameFlowManager.complicated;
         score = GameFlowManager.score;
-        // if(fr.Id == 30) {  
-        //     Global.Room.RequestFrame(new RequestFramePara {
-        //         BeginFrameId = 20,
-        //         EndFrameId = 30
-        //     }, e => {
-        //         var rsp =  (RequestFrameRsp)e.data;
-        //         foreach (Frame item in rsp.Frames)
-        //         {
-        //             Debugger.Log("RequestFrame rsp: {0} {1} {2}", item.Id, item.RoomId, item.Time);
-
-        //         }
-        //     });
-        // }
-
+  
         var para = new SendFramePara {
             Data =
             $"{acceleration},{steering},{game.myKartInfo.Position.x:0.###},{game.myKartInfo.Position.y:0.###},{game.myKartInfo.Position.z:0.###},{game.myKartInfo.Rotation.x:0.####},{game.myKartInfo.Rotation.y:0.####},{game.myKartInfo.Rotation.z:0.####},{game.myKartInfo.Rotation.w:0.####},{complicated},{score}"

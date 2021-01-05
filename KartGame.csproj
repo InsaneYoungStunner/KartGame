@@ -101,6 +101,7 @@
     <Compile Include="Assets\Karting\Scripts\MinMaxParameters.cs" />
     <Compile Include="Assets\Karting\Scripts\Objective.cs" />
     <Compile Include="Assets\Karting\Scripts\ObjectiveManager.cs" />
+    <Compile Include="Assets\Karting\Scripts\Options.cs" />
     <Compile Include="Assets\Karting\Scripts\PrefabReplacer.cs" />
     <Compile Include="Assets\Karting\Scripts\PrefabReplacerOnInstance.cs" />
     <Compile Include="Assets\Karting\Scripts\ScoreManager.cs" />

@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 namespace KartGame.UI
@@ -9,9 +10,11 @@ namespace KartGame.UI
         public string SceneName;
 
         public string LevelName;
-
+        public Toggle toggle1, ttoggle2;
         public void LoadTargetScene() 
         {
+            if (toggle1.isOn) {
+            }
 
             //Client clt = FindObjectOfType<Client>();
             //if (clt != null)
