@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/NatureWorld.unity
+- path: Assets/Scenes/IntroMenu.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

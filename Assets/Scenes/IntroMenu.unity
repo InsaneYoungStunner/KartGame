@@ -424,7 +424,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneName: Scenes/1
-  LevelName: World
+  LevelName: AncientWorld
   toggle1: {fileID: 58705398}
   ttoggle2: {fileID: 222807685}
 --- !u!1 &160263376
@@ -1392,8 +1392,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SceneName: Scenes/1
   LevelName: NatureWorld
-  toggle1: {fileID: 0}
-  ttoggle2: {fileID: 0}
+  toggle1: {fileID: 58705398}
+  ttoggle2: {fileID: 222807685}
 --- !u!114 &674893233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1443,6 +1443,17 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
